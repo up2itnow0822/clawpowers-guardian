@@ -5,7 +5,7 @@
 Static analysis, behavioral monitoring, trust scoring, and composition risk detection for OpenClaw skills and plugins.
 
 [![npm version](https://img.shields.io/npm/v/clawpowers-guardian.svg)](https://www.npmjs.com/package/clawpowers-guardian)
-[![License: MIT](https://img.shields.io/github/license/up2itnow0822/clawguardian)](https://github.com/up2itnow0822/clawguardian/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/github/license/up2itnow0822/clawguardian)](https://github.com/up2itnow0822/clawpowers-guardian/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 
 ---
@@ -48,10 +48,10 @@ Each stage catches attacks the previous stage misses. Traditional SAST won't det
 
 ## Quick Start
 
-Published on npm as [`clawpowers-guardian`](https://www.npmjs.com/package/clawpowers-guardian). The npm name `clawguardian` belongs to a different, unrelated package.
+Published on npm as [`clawpowers-guardian`](https://www.npmjs.com/package/clawpowers-guardian). This project is not affiliated with the npm package [`clawguardian`](https://www.npmjs.com/package/clawguardian), which is a different, unrelated project.
 
 ```bash
-npm install clawpowers-guardian
+npm i clawpowers-guardian
 ```
 
 ### Scan a skill before installation
@@ -169,7 +169,7 @@ ClawGuardian directly mitigates OWASP Top 10 for LLM Applications:
 ## Architecture
 
 ```
-clawguardian/
+clawpowers-guardian/
 ├── src/
 │   ├── scanner/
 │   │   ├── static.ts        # AST-based code analysis
@@ -230,8 +230,6 @@ npx clawpowers-guardian ci --fail-on-review
 - **SBOM Generation**: Software Bill of Materials for every installed skill
 - **Bulk Allowlist Import**: CSV/JSON import for pre-approved skills
 - **Custom Security Policies**: Organization-specific rules and thresholds
-- **Compliance Reporting**: SOC 2, ISO 27001, NIST AI RMF aligned reports
-- **SLA Guarantees**: Scan < 30s, Review < 24h, Revocation < 1h
 
 ## Standards Alignment
 
