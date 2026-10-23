@@ -252,7 +252,7 @@ npx clawpowers-guardian ci --fail-on-review
 
 ## Contributing
 
-We welcome contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions. Visit the [issue tracker](https://github.com/up2itnow0822/clawpowers-guardian/issues) to discuss proposed improvements.
 
 ## License
 
